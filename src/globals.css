@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #F5F0EB;
+  --color-brand-gold: #C9A96E;
+  --color-brand-navy: #1B2A4A;
+  --color-brand-white: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-navy);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}

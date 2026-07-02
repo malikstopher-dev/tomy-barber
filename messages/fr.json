@@ -1,0 +1,33 @@
+{
+  "nav": { "home": "Accueil", "services": "Services", "contact": "Contact" },
+  "hero": { "headline": "TOMY Barber", "subheadline": "Coupe • Barbe • Soins — L'art du grooming masculin dans un cadre premium.", "cta1": "Prendre RDV", "cta2": "Nos Services" },
+  "about": { "title": "L'Art du Barbier Moderne", "text": "TOMY Barber allie tradition et modernité pour offrir une expérience de coiffure et de soins masculins incomparable. Nos barbiers experts maîtrisent l'art de la coupe, de la taille de barbe et du rasage traditionnel." },
+  "services": {
+    "title": "Nos Services", "description": "Des prestations sur mesure pour homme exigeant.",
+    "haircut": { "name": "Coupe Homme", "desc": "Coupe moderne ou classique adaptée à votre style et morphologie." },
+    "beard": { "name": "Taille de Barbe", "desc": "Sculpture et entretien de barbe pour un look soigné." },
+    "shave": { "name": "Rasage Traditionnel", "desc": "Rasage à l'ancienne avec serviette chaude et produits premium." },
+    "styling": { "name": "Coiffage & Finition", "desc": "Brushing, produits coiffants et finition professionnelle." },
+    "treatment": { "name": "Soins Capillaires", "desc": "Soins nourrissants pour cheveux et cuir chevelu." },
+    "cta": "Réserver"
+  },
+  "why": { "title": "Pourquoi Choisir TOMY Barber ?",
+    "reasons": [
+      { "title": "Barbiers Experts", "desc": "Une équipe passionnée et formée aux dernières tendances." },
+      { "title": "Produits Premium", "desc": "Des produits professionnels pour des résultats impeccables." },
+      { "title": "Ambiance Exclusive", "desc": "Un cadre élégant et relaxant pour votre confort." },
+      { "title": "Satisfaction Garantie", "desc": "Votre satisfaction est notre priorité absolue." }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous", "subtitle": "Réservez votre créneau ou demandez un devis.",
+    "form": { "name": "Nom", "email": "Email", "phone": "Téléphone", "subject": "Sujet", "message": "Message", "send": "Envoyer", "success": "Merci ! Nous vous contacterons sous 24h." },
+    "whatsapp": "Contactez-nous sur WhatsApp", "email": "barber@tomyglobalservices.com"
+  },
+  "footer": {
+    "tagline": "Style intemporel, service d'excellence.",
+    "backToMain": "Site principal TOMY Global Services",
+    "services": "Nos Services", "quickLinks": "Liens rapides",
+    "copyright": "© {year} TOMY Barber. Une division de TOMY Global Services."
+  }
+}

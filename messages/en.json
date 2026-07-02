@@ -1,0 +1,33 @@
+{
+  "nav": { "home": "Home", "services": "Services", "contact": "Contact" },
+  "hero": { "headline": "TOMY Barber", "subheadline": "Cut • Beard • Care — The art of men's grooming in a premium setting.", "cta1": "Book Now", "cta2": "Our Services" },
+  "about": { "title": "The Art of Modern Barbering", "text": "TOMY Barber combines tradition and modernity to offer an unparalleled men's haircut and grooming experience. Our expert barbers master the art of cutting, beard sculpting, and traditional shaving." },
+  "services": {
+    "title": "Our Services", "description": "Tailored services for the discerning gentleman.",
+    "haircut": { "name": "Men's Haircut", "desc": "Modern or classic cut adapted to your style and face shape." },
+    "beard": { "name": "Beard Grooming", "desc": "Beard sculpting and maintenance for a polished look." },
+    "shave": { "name": "Traditional Shave", "desc": "Old-fashioned hot towel shave with premium products." },
+    "styling": { "name": "Styling & Finish", "desc": "Blow-dry, styling products and professional finish." },
+    "treatment": { "name": "Hair Treatments", "desc": "Nourishing treatments for hair and scalp." },
+    "cta": "Book"
+  },
+  "why": { "title": "Why Choose TOMY Barber?",
+    "reasons": [
+      { "title": "Expert Barbers", "desc": "A passionate team trained in the latest trends." },
+      { "title": "Premium Products", "desc": "Professional products for impeccable results." },
+      { "title": "Exclusive Atmosphere", "desc": "An elegant and relaxing setting for your comfort." },
+      { "title": "Satisfaction Guaranteed", "desc": "Your satisfaction is our absolute priority." }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us", "subtitle": "Book your slot or request a quote.",
+    "form": { "name": "Name", "email": "Email", "phone": "Phone", "subject": "Subject", "message": "Message", "send": "Send", "success": "Thank you! We will contact you within 24h." },
+    "whatsapp": "Contact us on WhatsApp", "email": "barber@tomyglobalservices.com"
+  },
+  "footer": {
+    "tagline": "Timeless style, excellent service.",
+    "backToMain": "TOMY Global Services main site",
+    "services": "Our Services", "quickLinks": "Quick Links",
+    "copyright": "© {year} TOMY Barber. A division of TOMY Global Services."
+  }
+}
