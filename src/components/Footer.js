@@ -40,7 +40,7 @@ export default function Footer() {
               <li><Link href="/services" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">Services</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">Contact</Link></li>
               <li>
-                <a href="https://tomyglobalservices.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://tomy-global-services.vercel.app" target="_blank" rel="noopener noreferrer"
                    className="text-brand-gold hover:underline transition-colors text-sm">
                   {t('backToMain')}
                 </a>
