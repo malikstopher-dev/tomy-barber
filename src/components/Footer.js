@@ -9,6 +9,13 @@ export default function Footer() {
   const locale = useLocale();
   const logoSrc = `/images/logo-${locale}.svg`;
 
+  const s1 = locale === 'fr' ? 'Coupe Homme' : locale === 'pt' ? 'Corte Masculino' : "Men's Haircut";
+  const s2 = locale === 'fr' ? 'Taille de Barbe' : locale === 'pt' ? 'Barba' : 'Beard Grooming';
+  const s3 = locale === 'fr' ? 'Rasage & Soins' : locale === 'pt' ? 'Barbear & Cuidados' : 'Shave & Care';
+  const homeLabel = locale === 'fr' ? 'Accueil' : locale === 'pt' ? 'Início' : 'Home';
+  const servicesLabel = locale === 'fr' ? 'Services' : locale === 'pt' ? 'Serviços' : 'Services';
+  const contactLabel = locale === 'fr' ? 'Contact' : locale === 'pt' ? 'Contato' : 'Contact';
+
   return (
     <footer className="bg-brand-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
@@ -27,18 +34,18 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider mb-4 text-brand-gold">{t('services')}</h4>
             <ul className="space-y-2">
-              <li><span className="text-gray-300 text-sm">Coupe Homme</span></li>
-              <li><span className="text-gray-300 text-sm">Taille de Barbe</span></li>
-              <li><span className="text-gray-300 text-sm">Rasage & Soins</span></li>
+              <li><span className="text-gray-300 text-sm">{s1}</span></li>
+              <li><span className="text-gray-300 text-sm">{s2}</span></li>
+              <li><span className="text-gray-300 text-sm">{s3}</span></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider mb-4 text-brand-gold">{t('quickLinks')}</h4>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">Accueil</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">Services</Link></li>
-              <li><Link href="/contact" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">Contact</Link></li>
+              <li><Link href="/" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">{homeLabel}</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">{servicesLabel}</Link></li>
+              <li><Link href="/contact" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">{contactLabel}</Link></li>
               <li>
                 <a href="https://tomy-global-services.vercel.app" target="_blank" rel="noopener noreferrer"
                    className="text-brand-gold hover:underline transition-colors text-sm">

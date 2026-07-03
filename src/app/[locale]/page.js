@@ -42,7 +42,7 @@ function StatsSection({ locale }) {
           {stats.map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-brand-gold mb-1">{stat.number}</div>
-              <div className="text-sm text-gray-400 uppercase tracking-wider">{stat.label.fr}</div>
+              <div className="text-sm text-gray-400 uppercase tracking-wider">{stat.label[locale]}</div>
             </div>
           ))}
         </div>
@@ -149,7 +149,7 @@ async function CtaSection({ locale }) {
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t('title')}</h2>
         <p className="text-lg text-gray-400 mb-10">{t('subtitle')}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/contact" className="px-10 py-4 bg-brand-gold text-brand-navy font-bold rounded-lg hover:bg-yellow-400 transition-all duration-300 text-lg shadow-lg shadow-brand-gold/20">Prendre RDV</a>
+          <a href="/contact" className="px-10 py-4 bg-brand-gold text-brand-navy font-bold rounded-lg hover:bg-yellow-400 transition-all duration-300 text-lg shadow-lg shadow-brand-gold/20">{locale === 'fr' ? 'Réserver' : locale === 'pt' ? 'Reservar' : 'Book Now'}</a>
           <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="px-10 py-4 border-2 border-white/30 text-white font-semibold rounded-lg hover:bg-white hover:text-brand-navy transition-all duration-300">WhatsApp</a>
         </div>
       </div>

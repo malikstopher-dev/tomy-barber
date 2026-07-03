@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full">
         <div className="max-w-xl">
           <div className="inline-block px-4 py-1.5 bg-brand-gold/20 backdrop-blur-sm border border-brand-gold/30 rounded-full text-brand-gold text-xs font-semibold uppercase tracking-widest mb-6">
-            TOMY Global Services
+            TOMY Barber
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-5 leading-tight">
             {t('headline')}
